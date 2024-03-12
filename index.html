@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gyűjtemények - Kun Dávid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <h1>Gyűjtemények kezelése</h1>
+        </div>
+        <div class="center">
+            <div class="form" id="gyujtemeny-form" style="display: none;">
+                <input type="text" id="cim" placeholder="Cím">
+                <input type="text" id="temakor" placeholder="Témakör">
+                <input type="date" id="datum">
+                <button class="gyAddBtn" id="letrehozas-btn">Létrehozás</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <button class="addBtn" id="gyujtemeny-letrehozas-btn" style="display: block;">Új gyűjtemény létrehozása</button>
+    </div>
+    <ul id="gyujtemeny-lista" class="boxul"></ul>
+
+    <script src="main.js"></script>
+</body>
+</html>
